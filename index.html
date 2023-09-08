@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Calculatrice_JS </title>
+</head>
+<body>  
+    
+    <div class="calculatrice">
+        <div class="en_tete"> 
+            <h3> Calculatrice_JS</h3>
+        </div>
+        <div class="ecran">
+            <input type="text" name="sortie" id="sortie" placeholder="Calcul..." readonly disabled>
+            <input type="hidden" name="apres_result" id="apres_result" value="0" readonly disabled>
+        </div>
+        <div class="touche">
+            <div class="range1">
+                <div class="touche_l1">
+                    <button class="touche1">C</button>
+                     <!-- Supprimer les espaces autours des innerHTML des boutons pour  -->
+                    <button class="touche1">±</button>
+                     <!-- qu'il n'y ai pas de double espace lors de laffichage -->
+                    <button class="touche1"> % </button> 
+                    <!-- car apres de l'ecriture de l'operation , elle devient une chaine de caractere qu'on doit dissequer -->
+                </div>  
+                <div class="touche_l2">   
+                    <button class="touche2">7</button>
+                    <button class="touche2">8</button>
+                    <button class="touche2">9</button>
+                </div>
+                <div class="touche_l3">
+                    <button class="touche3">4</button>
+                    <button class="touche3">5</button>
+                    <button class="touche3">6</button>
+                </div>
+                <div class="touche_l4">
+                    <button class="touche4">1</button>
+                    <button class="touche4">2</button>
+                    <button class="touche4">3</button>
+                </div>
+                <div class="touche_l5">
+                    <button class="touche5">«</button>
+                    <button class="touche5">0</button>
+                    <button class="touche5">.</button>
+                </div>
+            </div>
+            <div class="range2">
+                <button class="touche6"> ÷ </button>
+                <button class="touche7"> × </button>
+                <button class="touche7"> - </button>
+                <button class="touche7"> + </button>
+                <button class="touche7"> = </button>
+            </div>
+        </div>
+    </div>
+    <script src="dynamique.js"></script>
+    <!-- pour que la page HTML s'affiche avant que JS ne commence son travail -->
+</body>
+</html>
