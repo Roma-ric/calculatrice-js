@@ -1,16 +1,4 @@
-// var r=0;
-// for (var k = 0; k < 3; k++) {
-//     r=r+1;
-// }; 
-// alert(r);
 
-// var affiche= alert("Bienvenue à la calculatrice_JS");
-// affiche;
-// var aff = alert("Cliquez sur l'écran de la calculatrice pour l'activer.");
-// aff;  
-
-// var result;   
-// result=;
 var apres = document.getElementById("apres_result");
 var screenn = document.getElementById("sortie");
 var clavier = document.getElementsByTagName("button");
